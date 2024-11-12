@@ -1,0 +1,148 @@
+.employee-list-container {
+
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 18%;
+}
+
+.search-container {
+    text-align: right;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.search-bar {
+    padding: 10px;
+    width: 250px;
+    
+}
+
+.sort-buttons {
+    margin-bottom: 20px;
+   
+}
+
+.sort-buttons button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.sort-buttons button:hover {
+    background-color: #45a049;
+    
+}
+
+
+.edit{
+    background-color: green;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 5px;
+
+}
+
+.delete{
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    
+}
+.add-employee-btn {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.add-employee-btn:hover {
+    background-color: #006F8E;
+}
+
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed; 
+}
+
+.employee-table th, .employee-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    word-wrap: break-word; 
+    max-width: 200px; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.employee-table th {
+    background-color: #f2f2f2;
+}
+
+.employee-table td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination-controls button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.pagination-controls button:disabled {
+    background-color: #ccc;
+}
+
+.pagination-controls button:hover {
+    background-color: #45a049;
+}
+
+.count{
+    float: right;
+}
+
+.status-toggle-btn-active {
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.status-toggle-btn-deactivated {
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #f4f6f8;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+.dashboard-container h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dashboard-container h2 {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.welcome-message {
+    background-color: #fff;
+    border: 2px solid rgb(216, 207, 207);
+    box-shadow: #555;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 60%;
+    max-width: 600px;
+}
+
+.username {
+    font-weight: bold;
+    color: #3f7dbf;
+}
+
+.dashboard-container a {
+    color: #3f7dbf;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.dashboard-container a:hover {
+    text-decoration: underline;
+}
